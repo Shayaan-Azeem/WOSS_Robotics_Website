@@ -1,4 +1,4 @@
-import { Mentors, Team2023, Team2024 } from "@/lib/lists/Team";
+import { Mentors, Team2024 } from "@/lib/lists/Team";
 import { Title } from "../../Title";
 import Image from "next/image";
 
@@ -53,10 +53,10 @@ export const CaptainsScreen = () => {
       <div className="border-2 border-gray-600 rounded-lg px-10 py-8 justify-center items-center flex">
         <Image
           className="rounded-lg"
-          src="/team-pics/IMG_3793.jpg"
+          src="/team-pics/team.jpg"
           height="850"
           width="850"
-          alt="Windsor Team Photo"
+          alt="Tournament Team Photo"
           priority={true}
         />
       </div>
